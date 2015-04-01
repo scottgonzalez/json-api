@@ -808,7 +808,7 @@ GET /people?sort=+age,+name
 ```
 
 The sort order for each sort field **MUST** be specified with one of the
-following prefixes:
+following prefixes (or their url-encoded equivalent):
 
 * Plus (U+002B PLUS SIGN, "+") to request an ascending sort order.
 * Minus (U+002D HYPHEN-MINUS, "-") to request a descending sort order.
