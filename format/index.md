@@ -787,7 +787,7 @@ An endpoint **MAY** return resources related to the primary data by default.
 An endpoint **MAY** also support an `include` request parameter to allow the
 client to customize which related resources should be returned.
 
-If an endpoint does not support the `include` parameter, it must respond with
+If an endpoint does not support the `include` parameter, it **MUST** respond with
 `400 Bad Request` to any requests that include it.
 
 If an endpoint supports the `include` parameter and a client supplies it,
